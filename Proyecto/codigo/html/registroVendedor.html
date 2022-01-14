@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilosregistroVendedor.css">
+    <link rel="shortcut icon" href="../../icons/seller.png">
+    <title>Registro vendedor</title>
+</head>
+<body>
+
+    <!--menu del la pagina web-->
+    <header class="menu">
+        <div class="imagenLogo"><img src="../../Logo.png" width="140px" height="140px"></div>
+        <div class="tituloHijo"><h1 class="titulo">Market-HOME</h1></div>
+    </header>
+    
+    <!-- <div class="contenedorTexto">
+        <p class="cliente">Cliente</p>
+        <p class="vendedor">Vendedor</p>
+    </div> -->
+   
+   <div class="contenedorBoton">
+       <input type="submit" class="botonCliente" value="Cliente">
+        <input type="submit" class="botonVendedor" value="Vendedor">
+   </div>
+
+    <!--Datos del vendedor-->
+    <form class="contenedorFormulario">
+        <input type="text" class="inputCorreo" placeholder="Correo electrónico" required>
+        <input type="text" class="inputNombreMercado" placeholder="Nombre del mercado">
+        <input type="password" class="inputPassword" placeholder="Contraseña">
+        
+        <input type="text" class="inputNombreLocal" placeholder="Nombre del local">
+        <input type="text" class="inputconfirmarPassword" placeholder="Confirmar contraseña">
+        <input type="number" class="inputNumeroLocal" placeholder="Número del local" min="001" max="1000">
+
+        <input type="submit" class="botonRegistrarse" value="Registrarse">
+        <a href="http://www.google.com" class="forgetPassword">¿Haz olvidado tu contraseña?</a>
+        
+    </form>
+
+    <p class="tienesCuenta">Tienes cuenta<a href="http://www.google.com"> Inicia sesión</a></p>
+</body>
+</html>
+
+

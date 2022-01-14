@@ -1,0 +1,176 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+/*--------------------------------------------------------HEADER--------------------------------------------*/
+/*Esta parte es la parte sUperior de la pagina web*/
+.menu{
+    width: 100%;
+    background: #FFD283;
+
+    /*usando flexbox para centrar la imagen y el titulo*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} 
+
+.menu .tituloHijo .titulo{
+    margin-top: 50px;
+    font-family: 'Lobster', cursive;
+    
+}
+/*--------------------------------------------------------------MAIN----------------------------------------------------------*/
+.contenedorPadre{
+    width: 100%;
+    /* background: crimson; */
+    margin-top: 20px;
+    /* border: 2px solid #DAD6D1; */
+    padding-top: 20px;
+}
+
+.vendedorTexto{
+    background:#FFD283;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+.contenedorEtiquetas{
+    /* background: darkseagreen; */
+    width: 100%;
+    margin-top: 20px;
+
+    /*Usando flexboz para centrar los contenedores*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenedorEtiquetas .nombreMercado{
+    font-size: 20px;
+    /* background: crimson; */
+    display: inline-block;
+    width: 230px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border: solid 2px #FFD283;  
+}
+
+.contenedorEtiquetas .nombreLocal{ 
+    font-size: 20px;
+    /* background: crimson;    */
+    display: inline-block;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border: solid 2px #FFD283;
+}
+
+.contenedorEtiquetas .numeroLocal{
+    font-size: 20px;
+    /* background: crimson;     */
+    display: inline-block;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border: solid 2px #FFD283;
+}
+
+.contenedorEtiquetas .botonCerrarSesion{
+    font-size: 20px;
+    background: crimson;
+    color: white;      
+    display: inline-block;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contenedorComestibles{
+    width: 100%;
+    margin-top: 30px;
+    
+    /*Utilizand flex box para centrar los contenedore */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenedorComestibles .verduras{
+    background-image: url(../../img/Verduras/verduras.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 400px;
+    display: inline-block;
+    margin: 30px;
+    padding-left: 80px;
+    color: black;
+    font-size: 30px;
+    border: solid 2px #FFD283;
+    border-radius: 7px;
+}
+
+.contenedorComestibles .frutas{
+    background-image: url(../../img/Frutas/frutas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 400px;
+    display: inline-block;
+    margin: 30px;
+    padding-left: 80px;
+    color: black;
+    font-size: 30px;
+    border: solid 2px #FFD283;
+    border-radius: 7px;
+}
+
+.contenedorComestibles .hierbas{
+    background-image: url(../../img/Hierbas/hierbas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 400px;
+    display: inline-block;
+    margin: 30px;
+    padding-left: 80px;
+    color: black;
+    font-size: 30px;
+    border: solid 2px #FFD283;
+    border-radius: 7px;
+}
+
+/*-------------------------------------------------HOVER EFECTO-------------------------------------------------*/
+.contenedorEtiquetas .botonCerrarSesion:hover{
+    background: rgba(83, 11, 25,0.9);
+}
