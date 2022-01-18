@@ -1,0 +1,102 @@
+        body{
+            margin: 0;
+            font-family: sans-serif;
+            line-height: 20px;
+        }
+        
+        #Contenedor{   
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 10px 10px;
+        }
+        
+        
+        table{            
+            border-spacing: 10px;
+            text-align: center;            
+        }
+            
+      h1{
+            text-align: center;
+        }
+                
+        td,th{
+            border: 1px solid #000000;
+            padding: 5px 5px;
+            text-align: center;            
+        }
+        
+        th, .hora{
+            background-color: black;
+            color: white;
+        }
+        
+        .dormir{
+            background-color: aqua;
+        }
+        
+        .desayunar{
+            background-color: forestgreen;
+        }
+        
+        .despertar{
+            background-color: firebrick;
+        }
+        
+        .tarea{
+            background-color: dodgerblue;
+        }
+        
+        .pasatiempo{
+            background-color: darkviolet;
+        }
+        
+        .cenar{
+            background-color: cyan;
+        }
+        
+        .bañar{
+            background-color: crimson;
+        }
+        
+        .escuela{
+            background-color: coral;
+        }
+        
+        .redes{
+            background-color: chocolate;
+        }
+        
+        .instrumentacion{
+            background-color: chartreuse;
+        }
+        
+        .web{
+            background-color: cadetblue;
+        }
+        
+        .matematicas{
+            background-color: burlywood;
+        }
+        
+        .analisis{
+            background-color: fuchsia;
+        }
+        
+        .bases{
+            background-color: dimgrey;
+        }
+        
+        .casa{
+            background-color: brown;
+        }
+        
+        .jugar{
+            background-color: azure;
+        }
+        
+        .receso{
+            background-color: bisque
+        }

@@ -1,0 +1,123 @@
+
+            #titulo
+            {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                border-color: black;             
+                border-style: solid;
+                border-radius: 10px;
+                border-width: 2px;
+                padding: 10px;
+                margin-bottom: 10%;
+                margin: 20px;
+                text-align: center;
+                justify-content: center;
+            }
+
+            h3, h4
+            {
+                text-align: center;
+                border-color: black;             
+                border-style: solid;
+                border-radius: 10px;
+                border-width: 2px;
+                padding: 10px 0;
+                margin-bottom: 10%;
+                margin: 20px;
+                display: flex;  
+                justify-content: center;
+            }
+
+            .nivel_de_materias
+            {
+                border-color: black;             
+                border-style: solid;
+                border-radius: 10px;
+                border-width: 2px;
+                padding: 10px 0;
+                margin-bottom: 10%;
+                margin: 20px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;   
+            }
+
+            p
+            {
+                color: black;
+                font-size: 15px;
+                margin: 5px;
+                padding: 5px;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            .nivel_de_materias .no_cursada
+            {
+                width: 150px;
+                height: 80px;
+                background-color: lightcoral ;   
+                margin: 10px 10px; 
+                border-radius: 4px;
+                text-align: center;
+            }
+
+            .nivel_de_materias .en_curso
+            {
+                width: 150px;
+                height: 80px;
+                background-color: lightskyblue  ;   
+                margin: 10px 10px;    
+                border-radius: 4px;
+            }
+
+            .nivel_de_materias .cursada
+            {
+                width: 150px;
+                height: 80px;
+                background-color:lightgreen ;   
+                margin: 10px 10px; 
+                border-radius: 4px;   
+                text-align: center;
+            }
+
+            .nomenclatura
+            {
+                border-color: black;             
+                border-style: solid;
+                border-radius: 10px;
+                border-width: 2px;
+                padding: 10px 0;
+                margin-bottom: 10%;
+                margin: 20px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .nomenclatura .materia_no_cursada 
+            {
+                width: 200px;
+                height: 35px;
+                background:lightcoral;
+                margin: auto;
+                
+            }
+
+            .nomenclatura .materia_en_curso
+            {
+                width: 200px;
+                height: 35px;
+                background: lightskyblue;
+                margin: auto;
+            }
+
+            .nomenclatura .materia_cursada
+            {
+                width: 200px;
+                height: 35px;
+                background: lightgreen;
+                margin: auto;
+            }
+          

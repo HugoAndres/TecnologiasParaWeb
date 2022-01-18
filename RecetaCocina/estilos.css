@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#cuerpo{
+	margin: 50px;
+}
+
+.fondo
+{
+    background-image: url(./fondo.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2
+{
+    color: #FFFAF6;
+    font-size: 30px;
+}
+
+li
+{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#foto
+{ 
+    margin-top: 10px;
+    border:0px;
+    text-align: center;
+}
+
+#ingredientes
+{
+    position: relative;
+    left: 25px;
+    top: 30px;   
+}
+
+#Procedimiento
+{
+    position: relative;
+    left: 25px;
+    top: 50px;
+}

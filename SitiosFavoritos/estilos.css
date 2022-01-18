@@ -1,0 +1,69 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: antiquewhite
+}
+#contenedor{
+    margin: 50px 50px;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+h1,h2{
+    color: black;
+    text-align: center;
+    padding: 20px
+}
+
+.entretenimiento{
+    display: flex;
+}
+
+.youtube,.facebook,.netflix{
+    width: 350px;
+    height: 200px;
+    margin: 50px 50px;
+    text-align: center;
+    border: 2px solid black;   
+    padding: 20px;
+    background-color: azure;
+}
+
+.deportes{
+    margin: 10px 10px;
+    display: flex;
+}
+
+.tvazteca,.tudn,.espn{
+    width: 350px;
+    height: 270px;
+    margin: 50px 50px;
+    text-align: center;
+    border: 2px solid black;    
+    padding: 20px;
+    background-color: azure;
+}
+
+.educativo{
+    margin: 10px 10px;
+    display: flex;
+}
+
+.moodle,.wolf,.udemy{
+    width: 350px;
+    height: 270px;
+    margin: 50px 50px;
+    text-align: center;
+    border: 2px solid black;   
+    padding: 20px;
+    background-color: azure;
+}
+
+
+
+
+
